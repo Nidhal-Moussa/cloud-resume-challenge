@@ -26,3 +26,22 @@ Image provided for LLM
  - We'll extract our styles into its own stylesheet after we are happy with our HTML markup
  - We'll simplfy our HTML markup css selector to be minimal as possible
  - for the html page I'll use soft tabs two spaces because I'm ruby and ruby on rails fan
+  ## Serve Static website locally
+
+ We Need to serve our static website locally so we can start using stylesheets
+ externally form our HTML page in a cloud Developer Enviroment (CDE)
+Assuming node installed
+
+```sh
+npm i http-server -g
+```
+https://www.npmjs.com/package/http-server 
+
+### Server Website
+
+http-server will server a public folder by default where the command is run. 
+
+```sh
+cd frontend
+http-server
+```
