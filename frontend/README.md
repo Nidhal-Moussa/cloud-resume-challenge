@@ -45,3 +45,7 @@ http-server will server a public folder by default where the command is run.
 cd frontend
 http-server
 ```
+
+## Image Size Considerations 
+Ihavr backgroud texture that was 2.8 MB.
+I'm going to optimize it to webp an online tool.
