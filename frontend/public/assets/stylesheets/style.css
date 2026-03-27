@@ -26,7 +26,7 @@ header {
     background:black;
     /* width:100%; */
     /* flex-shrink: 1; */
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 
 header nav {
@@ -38,11 +38,22 @@ header nav a {
     color: #ffffff;
 }
 
+header nav a.active {
+ background:rgba(255, 255, 255, 0.7);   
+}
 article {
     width: 1100px;
     background: white;
     box-shadow: 0px 1px 9px 1px rgba(0,0, 0, 0.5);
     padding: 20px;
+}
+p{
+    margin-top:0px;
+}
+.headerClass {
+    border-bottom: solid 1px rgb(0, 0, 0);
+    text-align: center; 
+
 }
 
 div.content {    
@@ -59,3 +70,4 @@ div.content_wrap{
     padding-top: 32px; 
     overflow:hidden;
 }
+
